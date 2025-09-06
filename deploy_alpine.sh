@@ -75,5 +75,11 @@ if [ "$response" = "y" ] || [ "$response" = "Y" ] || [ "$response" = "yes" ] || 
     flatpak install -y flathub com.spotify.Client
 fi
 
+echo "Would you like to install Parabolic? (video downloader) (y/n)"
+read -r response
+if [ "$response" = "y" ] || [ "$response" = "Y" ] || [ "$response" = "yes" ] || [ "$response" = "Yes" ]; then
+    flatpak install -y flathub org.nickvision.tubeconverter
+fi
+
 echo "Flatpak setup complete."
 

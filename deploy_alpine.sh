@@ -45,7 +45,25 @@ apk add --no-cache \
     byobu \
     shellcheck \
     rsync \
-    curl
+    curl \
+    wget \
+    unzip \
+    zip \
+    tar \
+    tree \
+    nano \
+    vim \
+    grep \
+    find \
+    sed \
+    awk \
+    jq \
+    less \
+    which \
+    man-pages \
+    openssh-client \
+    ca-certificates \
+    tzdata
 
 # Flatpak
 
